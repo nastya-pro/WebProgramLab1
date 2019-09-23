@@ -87,7 +87,7 @@ body {
 
 
 .image {
-    width: 30%;
+    width: 100%;
     display:block;
     margin: auto;
 }
@@ -101,8 +101,21 @@ body {
     padding: 20px;
 }
 
+.tile{
+    width: 50%;
+    margin: 30px;
+    border: 1px black solid;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 30px;
+}
+
 .title {
     display: inline;
     text-align: right;
     font-size: 5em;
+}
+
+h2{
+    text-align: center;
 }
