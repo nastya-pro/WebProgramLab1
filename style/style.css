@@ -1,96 +1,19 @@
-/* �������� ����� ��������� */
-/*html, body */
-/*{*/
-/*font:14px Arial, Helvetica, sans-serif;*/
-/*color:#333;*/
-/*background:#f2f3f4;*/
-/*text-align:center;*/
-/*border:1px;*/
-/*}*/
-/*!* �������� �������� ������� *!*/
-/*.table*/
-/*{*/
-/*margin:0 auto;*/
-/*width:80%;*/
-/*height:100%;*/
-/*background:#fff;*/
-/*border-collapse: separate; */
-/*}*/
-/*!* ����� �������� �������, ������ ����� �����, ������� �������� � ���� *!*/
-/*.top, .content, .menu, .bottom*/
-/*{*/
-/*width:100%;*/
-/*height:100%;*/
-/*}*/
-/*!* �������������� �������� ������� ����� ����� *!*/
-/*.top*/
-/*{*/
-/*border-spacing:0;*/
-/*}*/
-/*!* ����� �������� ����� � ������ ������� ������� ����� ����� *!*/
-/*.top_left, .top_right*/
-/*{*/
-/*border:1px solid #000;*/
-/*padding:5px 20px;*/
-/*background:#c0c0c0;*/
-/*}*/
-/*!* �������������� �������� ����� ������� ������� ����� ����� *!*/
-/*.top_left*/
-/*{*/
-/*width:60%;*/
-/*border-radius:8px 0 0 8px;*/
-/*border-right-width:0;*/
-/*text-align:left;*/
-/*}*/
-/*!* �������������� �������� ������ ������� ������� ����� ����� *!*/
-/*.top_right*/
-/*{*/
-/*width:40%;*/
-/*border-radius:0 8px 8px 0;*/
-/*border-left-width:0;*/
-/*text-align:right;*/
-/*}*/
-/*!* �������� ������ ����� ����� *!*/
-/*.bottom*/
-/*{*/
-/*text-align:center;*/
-/*font-size:11px;*/
-/*color:#fff;*/
-/*background:#c0c0c0;*/
-/*}*/
-/*!* ����� �������� �������� �������� � ���� *!*/
-/*.menu div, .content_div*/
-/*{*/
-/*border:1px solid #000;*/
-/*border-radius:10px;*/
-/*vertical-align:top;*/
-/*text-align:center;*/
-/*padding:20px 20px;*/
-/*position:relative;*/
-/*}*/
-/*!* �������������� �������� ������� ���� *!*/
-/*.menu div*/
-/*{*/
-/*background:#e7e7e7;*/
-/*}*/
 body {
     background: lightgray;
 }
 
-.main {
-    margin: auto;
-    margin-top: 80px;
-    width: 1200px;
+.content {
     background: white;
     border-radius: 20px;
     padding: 40px;
     font-size: 1.3em;
+    display: inline-block;
+    width: 74%;
 }
-
 
 .image {
     width: 100%;
-    display:block;
+    display: block;
     margin: auto;
 }
 
@@ -99,8 +22,8 @@ body {
     padding: 20px;
 }
 
-.tile{
-    width: 39%;
+.tile {
+    width: 37%;
     margin: 30px;
     border: 1px black solid;
     border-radius: 30px;
@@ -108,22 +31,21 @@ body {
     padding: 30px;
 }
 
-.top{
-    /*align: center;*/
+.top {
     display: inline-block;
     margin: auto;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 2.5em;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-.menu{
+.menu {
     width: 98%;
     top: 0;
     left: 0;
@@ -134,7 +56,7 @@ h2{
     margin-bottom: 0;
 }
 
-.menu li{
+.menu li {
     display: inline-block;
     text-align: center;
     font-size: 1.2em;
@@ -142,53 +64,57 @@ h2{
     color: white;
 }
 
-.menu a:hover{
+.menu a:hover {
     background: antiquewhite;
 }
 
-.menu a, .menu_right label{
+.menu a, .menu_right label {
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
 }
 
-.menu_right{
+.menu_right {
     float: right;
 }
 
-.menu a:link{
+.menu a:link {
     color: white;
 }
 
-.menu a:visited{
+.menu a:visited {
     color: white;
 }
 
-.title span{
+.title {
+    padding: 15px 30px;
+}
+
+.title span {
     font-size: 1.5em;
     display: inline-block;
     margin-left: 110px;
     margin-right: 150px;
 }
 
-.title div{
+.title div {
     display: inline-block;
     height: 30px;
     position: relative;
 }
 
-.title img{
+.title img {
     height: 54px;
     position: absolute;
-    top: -6px;
+    top: -10px;
     left: 0;
 }
 
-.bottom{
+.bottom {
     width: 100%;
 }
 
-.bottom ul{
+.bottom ul {
     width: 38%;
     font-size: 1.2em;
     color: black;
@@ -196,16 +122,56 @@ h2{
     margin: auto;
 }
 
-.bottom li{
+.bottom li {
     display: inline-block;
     padding: 20px 30px;
 }
 
-.left_menu{
-    width: 200px;
+.left_menu {
+    width: 15%;
     height: 600px;
     float: left;
     background: white;
     border-radius: 20px;
     padding: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.main {
+    margin: auto;
+    margin-top: 80px;
+    width: 1400px;
+}
+
+.left_menu ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.left_menu li {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.left_menu a:link {
+    color: black;
+}
+
+.left_menu a:visited {
+    color: black;
+}
+
+.left_menu a:hover {
+    background: darkgray;
+}
+
+.left_menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-bottom: 1px black solid;
 }
