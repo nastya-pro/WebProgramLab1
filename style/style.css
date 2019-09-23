@@ -79,11 +79,12 @@ body {
 
 .main {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 80px;
     width: 1200px;
     background: white;
     border-radius: 20px;
     padding: 40px;
+    font-size: 1.3em;
 }
 
 
@@ -111,6 +112,11 @@ body {
     /*align: center;*/
     display: inline-block;
     margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
 }
 
 h2{
