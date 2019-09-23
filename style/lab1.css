@@ -1,0 +1,18 @@
+.color_table{
+    width: 80%;
+    border: 1px black solid;
+}
+
+.color_table td{
+    border: 1px black solid;
+    width: 12%;
+}
+
+.color_table tr{
+    height: 40px;
+}
+
+.input{
+    size: 39px;
+    maxlength: 30px;
+}
