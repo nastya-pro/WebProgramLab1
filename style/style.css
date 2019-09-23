@@ -102,12 +102,18 @@ body {
 }
 
 .tile{
-    width: 50%;
+    width: 39%;
     margin: 30px;
     border: 1px black solid;
     border-radius: 30px;
     display: inline-block;
     padding: 30px;
+}
+
+.top{
+    /*align: center;*/
+    display: inline-block;
+    margin: auto;
 }
 
 .title {
