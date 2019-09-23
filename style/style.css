@@ -79,6 +79,7 @@ body {
 
 .main {
     margin: auto;
+    margin-top: 50px;
     width: 1200px;
     background: white;
     border-radius: 20px;
@@ -124,4 +125,43 @@ body {
 
 h2{
     text-align: center;
+}
+
+.menu{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: darksalmon;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu a:hover{
+    background: antiquewhite;
+}
+
+.menu a, .menu_right label{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu_right{
+    float: right;
+
+}
+
+.menu a:link{
+    color: black;
+}
+
+.menu a:visited{
+    color: black;
 }
