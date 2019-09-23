@@ -185,14 +185,27 @@ h2{
 }
 
 .bottom{
-    width: 98%;
-    /*top: 0;*/
-    /*left: 0;*/
-    /*position: fixed;*/
-    background: darksalmon;
+    width: 100%;
+}
+
+.bottom ul{
+    width: 38%;
     font-size: 1.2em;
-    color: white;
-    /*list-style-type: none;*/
-    /*margin-top: 0;*/
-    /*margin-bottom: 0;*/
+    color: black;
+    list-style-type: none;
+    margin: auto;
+}
+
+.bottom li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.left_menu{
+    width: 200px;
+    height: 600px;
+    float: left;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
 }

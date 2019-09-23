@@ -43,7 +43,7 @@
 </table>
 <h3>Форма заказа услуги в туристическом агенстве:</h3>
 <form action="POST">
-    <table>
+    <table class="order">
         <tr>
             <td>Страна</td>
             <td><input type="text"/></td>
@@ -61,17 +61,33 @@
             <td><input type="datetime" name="created"></td>
         </tr>
         <tr>
+            <td>Количество человек</td>
+            <td><input type="number"/></td>
+        </tr>
+        <tr>
             <td>Ваше имя</td>
             <td><input type="text" name="name1"/></td>
         </tr>
         <tr>
-            <td>Ваш номер</td>
+            <td>Контактный номер</td>
             <td><input type="text" name="number"/></td>
         </tr>
         <tr>
             <td>Ваш e-mail</td>
-            <td> <input type="text" name="email"/></td>
+            <td><input type="text" name="email"/></td>
+        </tr>
+        <tr>
+            <td>Тип питания</td>
+            <td align="left">
+                <input type="radio" name="all" value="yes" />Все включено<br/>
+                <input type="radio" name="bd" value="yes" />
+                Завтрак и ужин<br/>
+                <input type="radio" name="bl" value="yes" />Завтрак и обед<br/>
+            </td>
         </tr>
     </table>
+    <textarea rows="5" cols="45" name="comments">Пожелания</textarea>
+    <div><input type="submit" value="Отправить"/></div>
+</form>
 </body>
 </html>
